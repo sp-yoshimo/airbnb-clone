@@ -50,7 +50,7 @@ const Search = () => {
         }
 
         return "Add Guests";
-    },[])
+    },[guestCount])
 
     return(
         <div 

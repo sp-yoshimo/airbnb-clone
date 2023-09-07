@@ -26,7 +26,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
         onChange(result.info.secure_url)
         console.log(result.info.secure_url);
         
-    }, []);
+    }, [onChange]);
 
     return (
         <CldUploadWidget
