@@ -1,4 +1,4 @@
-export const Dynamic = 'force-dynamic'
+
 
 import React from "react";
 

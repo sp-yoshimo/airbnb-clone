@@ -1,4 +1,4 @@
-export const Dynamic = 'force-dynamic'
+
 
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import getListingById from "@/app/actions/getListingById"

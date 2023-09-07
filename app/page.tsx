@@ -1,4 +1,4 @@
-export const Dynamic = 'force-dynamic'
+export const dynamic = 'force-dynamic'
 
 
 import getCurrentUser from "./actions/getCurrentUser";
