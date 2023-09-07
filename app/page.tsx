@@ -1,3 +1,6 @@
+export const Dynamic = 'force-dynamic'
+
+
 import getCurrentUser from "./actions/getCurrentUser";
 import getListings, { IListingParams } from "./actions/getListings";
 import ClientOnly from "./components/ClientOnly";
@@ -9,6 +12,8 @@ import ListingCard from "./components/listings/ListingCard";
 interface HomeProps {
   searchParams: IListingParams
 }
+
+
 
 const Home = async ({ searchParams }: HomeProps) => {
 
