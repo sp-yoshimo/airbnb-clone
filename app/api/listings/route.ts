@@ -50,3 +50,11 @@ export async function POST(
 
     return NextResponse.json(listing)
 }
+
+export async function GET(){
+    request: Request
+}{
+    console.log("here");
+    
+    NextResponse.json("Hello")
+}
