@@ -54,7 +54,11 @@ export async function POST(
 export async function GET(
     request: Request
 ){
-    console.log("here");
+    const listings = await prisma.listing.findMany({
+        orderBy:{
+            createdAt:"desc"
+        }
+    })
     
-    return NextResponse.json({"msg":"Hello"})
+    return NextResponse.json(listings)
 }
